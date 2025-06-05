@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱的告白 - Love Declaration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Noto+Sans+SC:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <div class="nav-brand">💕 Love Story</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#memories">回忆</a></li>
+                <li><a href="#love-letter">情书</a></li>
+                <li><a href="#gallery">相册</a></li>
+                <li><a href="#promise">承诺</a></li>
+            </ul>
+        </nav>
+
+        <!-- 主页面 -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">我的心里只有你</h1>
+                <p class="hero-subtitle">在这个特别的地方，我想对你说出心中的话</p>
+                <div class="floating-hearts">
+                    <span class="heart">💖</span>
+                    <span class="heart">💕</span>
+                    <span class="heart">💗</span>
+                    <span class="heart">💝</span>
+                    <span class="heart">💘</span>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('love-letter')">读我的情书</button>
+            </div>
+        </section>
+
+        <!-- 回忆时光 -->
+        <section id="memories" class="memories">
+            <h2 class="section-title">我们的美好回忆</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">第一次相遇</div>
+                    <div class="timeline-content">
+                        <h3>那个春天的午后</h3>
+                        <p>阳光正好，微风不燥，我遇见了你。那一刻，我知道我的世界从此不同了。你的笑容如春花般绚烂，深深印在我心里。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">第一次约会</div>
+                    <div class="timeline-content">
+                        <h3>咖啡店的温暖时光</h3>
+                        <p>我们在那家小咖啡店里聊了整个下午，从书籍到梦想，从过去到未来。时间仿佛静止，只有你我的声音在空气中轻柔地流淌。</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">第一次牵手</div>
+                    <div class="timeline-content">
+                        <h3>月光下的承诺</h3>
+                        <p>那个月圆之夜，我们漫步在公园里。当我鼓起勇气牵起你的手时，你没有拒绝。那份温暖，至今还在我掌心。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 情书 -->
+        <section id="love-letter" class="love-letter">
+            <h2 class="section-title">写给你的情书</h2>
+            <div class="letter-container">
+                <div class="letter-paper">
+                    <div class="letter-header">致我最爱的人</div>
+                    <div class="letter-content">
+                        <p>亲爱的，</p>
+                        <p>当我提笔写下这些文字时，心中满怀着对你的爱意。你是我生命中最美好的意外，是我心中最亮的那颗星。</p>
+                        <p>每当看到你的笑容，我的世界就变得明亮起来。你的温柔如春风，抚慰着我疲惫的心灵；你的关怀如甘露，滋润着我干涸的心田。</p>
+                        <p>我想和你一起看遍世间的美景，品尝人生的酸甜苦辣。我想在每个清晨醒来时都能看到你的脸庞，在每个夜晚入睡前都能听到你的声音。</p>
+                        <p>我爱你，不仅仅是因为你的美丽，更因为你善良的心灵和纯真的笑容。我爱你的一切，包括你的小脾气和小任性。</p>
+                        <p>愿我们的爱情如这春天的花朵，永远绚烂；如这夏日的阳光，永远温暖；如这秋天的果实，永远甜蜜；如这冬日的雪花，永远纯洁。</p>
+                        <p class="letter-signature">永远爱你的人<br>💕</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 相册 -->
+        <section id="gallery" class="gallery">
+            <h2 class="section-title">我们的相册</h2>
+            <div class="photo-grid">
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">📷</span>
+                        <p>第一次约会</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">🌸</span>
+                        <p>春天的樱花</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">🌅</span>
+                        <p>海边日出</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">🎂</span>
+                        <p>生日惊喜</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">🎄</span>
+                        <p>圣诞节</p>
+                    </div>
+                </div>
+                <div class="photo-item">
+                    <div class="photo-placeholder">
+                        <span class="photo-icon">💐</span>
+                        <p>纪念日</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 承诺 -->
+        <section id="promise" class="promise">
+            <h2 class="section-title">我的承诺</h2>
+            <div class="promise-container">
+                <div class="promise-card">
+                    <div class="promise-icon">💍</div>
+                    <h3>永恒的爱</h3>
+                    <p>我承诺用我的一生来爱你，无论贫穷还是富有，无论健康还是疾病，我都会陪在你身边。</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">🏠</div>
+                    <h3>温暖的家</h3>
+                    <p>我承诺为你建造一个温暖的家，让你在疲惫时有个港湾，在开心时有人分享。</p>
+                </div>
+                <div class="promise-card">
+                    <div class="promise-icon">🌟</div>
+                    <h3>美好的未来</h3>
+                    <p>我承诺和你一起创造美好的未来，实现我们共同的梦想，走过人生的每一个阶段。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 页脚 -->
+        <footer class="footer">
+            <p>💕 Made with Love 💕</p>
+            <p>愿我们的爱情故事永远美好</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
